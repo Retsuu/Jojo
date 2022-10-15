@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,200&family=Roboto:ital,wght@0,300;1,400&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('jojo1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+
+.logo {
+  color: white;
+  font-family: Montserrat;
+
+}
+
+.menu-icon {
+  margin-left: 5%;
+  width: 30px;
+  cursor: pointer;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 50px
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.row {
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+
+.col1 {
+  margin-top: 250px;
+  flex-basis: 50%;
+}
+
+.col1 h1 {
+  font-family: Montserrat;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.col1 h1 span{
+  font-family: Montserrat;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.col1 h5 {
+  font-family: Poppins;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15px;
+  margin-left:50px;
+}
+
+input {
+  width: 120px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 10px;
+  margin-left: 80px;
+  font-family: Poppins;
+}
+
+
+
+.card {
+  width: 100px;
+  height: 130px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  margin: 10px 15px;
+  box-sizing: border-box;
+  background: url('haha1.jpg');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+
+.card2 {
+  background: url('haha2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  background: url('haha8.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card4 {
+  background: url('haha3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card5 {
+  background: url('haha4.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card6 {
+  background: url('JOJO6.jpg');
+  background-size: cover;
+  background-position: center;
+}
